@@ -9,7 +9,7 @@ function Intro() {
             <h1 className='text-2xl text-[#FFC0C7] text-center'>With the world's largest web developer site</h1>
             <div className='flex flex-row justify-center items-center'>
                 <input type='search' placeholder='Search our tutorials, e.g.HTML' className='w-[25em] max-sm:w-[70vw] text-center text-black h-10 rounded-l-full'/>
-                <button className='bg-[#04AA6D] h-10 w-[5em] rounded-r-full pl-11 max-sm:w-[20vw] max-[300px]:pl-2'><BsSearch /></button>
+                <button className='relative bg-[#04AA6D] h-10 sm:w-[5em] rounded-r-full pl-11  max-uxs:pl-4'><BsSearch /></button>
             </div>
             <h1 className='text-2xl underline text-center hover:text-green-400'>Not sure Where To Begin?</h1>
         </div>

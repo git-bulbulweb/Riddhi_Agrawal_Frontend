@@ -99,8 +99,9 @@ function Menu({setShowNavLink}) {
             {options.map((opt)=>(
               <div
               className={`
-                flex flex-row items-center justify-between text-sm hover:bg-[#04AA6D] hover:text-white h-full  gap-1 cursor-pointer w-full  text-xl w-full`}
+                flex flex-row items-center justify-between text-sm hover:bg-[#04AA6D] hover:text-white h-full  gap-1 cursor-pointer w-full  `}
               onClick={() => handleMenuLink("tutorial")}
+              key={`${opt}option`}
             >
               <h1 className="">{opt}</h1>
               <AiOutlineGift />
